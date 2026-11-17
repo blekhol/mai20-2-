@@ -1,49 +1,83 @@
 {
-    "cipok": [
-        {
-            "id": 1,
-            "brand": "Nike",
-            "model": "Air Max 90",
-            "price": 45000,
-            "size": 42,
-            "inStock": true,
-            "releaseDate": "2020-03-26"
-        },
-        {
-            "id": 2,
-            "brand": "Adidas",
-            "model": "Ultraboost 22",
-            "price": 55000,
-            "size": 43,
-            "inStock": false,
-            "releaseDate": "2021-12-09"
-        },
-        {
-            "id": 3,
-            "brand": "Puma",
-            "model": "Suede Classic",
-            "price": 28000,
-            "size": 40,
-            "inStock": true,
-            "releaseDate": "2018-05-15"
-        },
-        {
-            "id": 4,
-            "brand": "Vans",
-            "model": "Old Skool",
-            "price": 31000,
-            "size": 41,
-            "inStock": true,
-            "releaseDate": "2019-07-10"
-        },
-        {
-            "id": 5,
-            "brand": "New Balance",
-            "model": "574",
-            "price": 38000,
-            "size": 44,
-            "inStock": false,
-            "releaseDate": "2022-01-20"
-        }
-    ]
+  "cipok": [
+    {
+      "id": "1",
+      "brand": "Nike",
+      "model": "Air Max 90",
+      "price": 45000,
+      "size": 42,
+      "inStock": true,
+      "releaseDate": "2020-03-26"
+    },
+    {
+      "id": "2",
+      "brand": "Adidas",
+      "model": "Ultraboost 22",
+      "price": 55000,
+      "size": 43,
+      "inStock": false,
+      "releaseDate": "2021-12-09"
+    },
+    {
+      "id": "3",
+      "brand": "Puma",
+      "model": "Suede Classic",
+      "price": 28000,
+      "size": 40,
+      "inStock": true,
+      "releaseDate": "2018-05-15"
+    },
+    {
+      "id": "4",
+      "brand": "Vans",
+      "model": "Old Skool",
+      "price": 31000,
+      "size": 41,
+      "inStock": true,
+      "releaseDate": "2019-07-10"
+    },
+    {
+      "id": "5",
+      "brand": "New Balance",
+      "model": "574",
+      "price": 38000,
+      "size": 44,
+      "inStock": false,
+      "releaseDate": "2022-01-20"
+    },
+    {
+      "id": "u7fKvKQcilM"
+    },
+    {
+      "id": "3u5jogcPkq0"
+    },
+    {
+      "brand": "teszt",
+      "model": "teszt",
+      "price": "123",
+      "size": "1",
+      "inStock": true,
+      "releaseDate": "2026-11-12",
+      "id": "1u3TAIIVVnE"
+    },
+    {
+      "brand": "teszt",
+      "model": "teszt",
+      "price": "123",
+      "size": "1",
+      "inStock": false,
+      "releaseDate": "2026-11-12",
+      "id": "2NJ6tn1I38k"
+    },
+    {
+      "brand": "teszt",
+      "model": "teszt",
+      "price": "123",
+      "size": "1",
+      "inStock": false,
+      "releaseDate": "2026-11-03",
+      "id": "IrWZwRlTD3c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

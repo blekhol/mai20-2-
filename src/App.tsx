@@ -17,7 +17,23 @@ function App() {
 
   async function felvetel(e) {
     e.preventDefault();
-    console.log(e.brand);
+    const uj = {
+      brand: e.target.brand.value,
+      model: e.target.model.value,
+      price: e.target.price.value,
+      size: e.target.size.value,
+      inStock: e.target.inStock.checked,
+      releaseDate: e.target.releaseDate.value
+    };
+
+    const response = await fetch("http://localhost:3000/cipok", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(uj)
+    });
+    setCipok([...cipok, await response.json()]);
   }
 
   return (
