@@ -34,6 +34,8 @@ function App() {
       body: JSON.stringify(uj)
     });
     setCipok([...cipok, await response.json()]);
+
+    e.target.reset();
   }
 
   return (

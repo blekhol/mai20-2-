@@ -77,6 +77,24 @@
       "inStock": false,
       "releaseDate": "2026-11-03",
       "id": "IrWZwRlTD3c"
+    },
+    {
+      "brand": "asd",
+      "model": "asd",
+      "price": "123",
+      "size": "111111",
+      "inStock": false,
+      "releaseDate": "2026-11-13",
+      "id": "PXYntN4YZ2Q"
+    },
+    {
+      "brand": "asd",
+      "model": "asd",
+      "price": "123",
+      "size": "111111",
+      "inStock": false,
+      "releaseDate": "2026-11-13",
+      "id": "-RUDHUIiHYI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
